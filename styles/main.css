@@ -1,0 +1,113 @@
+:root {
+  --red: #e50914;
+  --black: #141414;
+}
+
+/* Base e header */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  color: var(--red);
+  margin-left: 5px;
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header .logoimg {
+  width: 50px;
+  height: 40px;
+}
+
+header nav {
+  margin-left: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 15px;
+  transition: color 0.2s;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/* filme principal */
+
+.movie {
+  font-size: 16px;
+  background: url("../img/banner.jpg") no-repeat;
+
+  height: 400px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+
+.movie .description {
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-top: 5%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", Arial;
+}
+
+.button-movie {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+
+  transition: 0.2s ease all;
+}
+
+.button-movie:hover {
+  background-color: white;
+  color: black;
+}
+
+.button-movie i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.title-carousel {
+  margin: 10px 0 10px 5px;
+}
